@@ -1,0 +1,19 @@
+edito
+thaior are three tyope editor 
+1. vi editor
+2.vim editor 
+3.nano editor
+
+1.vi editor it's globley use in this vi working two mode
+ 1-command mode=it's alwas open defoult , but press [Esc] keyword in your keyboar
+ 2-insert mode=a,i,o -user press and than you go insert mode
+vi editor to exit - press [Esc] keyword and shift+q! without save file
+copy to line-press [yy] and than paste [p]
+and you need to 20 line to copy do you can press [20 yy p]
+delete- [dd]
+more line delete like you need 20 line to delete so you can press [20 dd] simple
+yo need to your corser go to line to boutom so press [y shift+$$]
+boutum to top [gg]
+file top to boutum [shift+gg]
+and you need to your corser 2nd line so you press [2yy]
+vi editor more information you type [vimtutor]
