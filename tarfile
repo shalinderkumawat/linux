@@ -1,0 +1,18 @@
+    tar file = a collaction of mulltipul file and structru
+it's calld zip file
+why to use zip file ?
+1.sharing esey
+2. file compress 
+3. archieval (rar file)
+1tar -cf filename.tar
+  =this code creat a new file  .tar is a extaintion
+2tar -tf filename.tar 
+  =this command show the tar file /zip file
+3tar -rf filename.tar other file
+  =this command add a new file 
+                                  *exterat
+4tar -xf filename.tar    /tar -xvf filename.tar
+  =this command extrateto file
+5tar -czf filename.tar.gz filename.html
+  =this command creat a zip file/commpose
+like =  filename.html =500mb you can apply the this command so output filename.tar =1.0mb
