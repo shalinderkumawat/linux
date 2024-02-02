@@ -1,0 +1,41 @@
+
+how to check to permission 
+-ls -l
+output 
+1.permission  2.link 3.user/owner 4.file size 5.time 6.file name
+ =
+1 whoami 
+  this command is work show admin anme
+2 useradd -m name
+  this command add a name to git 
+3 sudo 
+this command work to the you give to full exies to another admin creat to new repo. etc
+like - sudo useradd -m addmin name
+4 admin file information /etc/passwd
+ like - cat /etc/passwd                tail-3 /etc/passwd
+  cat command is a show the info.        tail command is show the lines you will see onley last 3 line so you give the command
+5 sudo userdel addmian name:
+  you can user delete
+6 sudo passwd file name:
+ this command is creaat a locke to your folder
+ and this passwor is not visible 
+7 su --file name
+  user switch
+8 permission =
+   thair are three type 
+   1.r=read=2nd word to 4 word like [rw--]
+   2.w=write=5-7
+   3.x=exiquit-
+permission always run onley groups
+  1user ex. rw- read and write
+  2group ex. r-- onley read          [youser can change]
+  3other ex. r-- onley read
+how to apply on permission in file/folder
+  =chmod o+w file name
+    chomd =permission
+    o+w  o=other ko weite ki permission di 
+    more [u+rwx]  [g+rwx] file name
+  =and you need to permission to delete
+   -chmod [o,g,u-r,w,x] file name 
+   oug is other group user rwx is write exite read
+   
